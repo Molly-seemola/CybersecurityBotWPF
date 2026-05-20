@@ -1,10 +1,8 @@
 ﻿using System.Media;
 using System.Threading.Tasks;
 
-namespace CybersecurityBotWPF
+private void PlayVoiceGreeting()
 {
-    public static class AudioService
-    {
         public static async Task PlayGreetingAsync()
         {
             await Task.Run(() =>
